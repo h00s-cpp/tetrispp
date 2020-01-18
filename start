@@ -1,0 +1,2 @@
+#!/bin/bash
+LD_LIBRARY_PATH=/home/h00s/src/sfml/latest/lib ./tetrispp
