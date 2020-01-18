@@ -1,6 +1,6 @@
 #include "game.hpp"
 
-Game::Game() : mWindow(sf::VideoMode(640, 480), "Tetris++") {
+Game::Game() : mWindow(sf::VideoMode(1024, 768), "Tetris++") {
   mWindow.setVerticalSyncEnabled(true);
 }
 
