@@ -1,6 +1,8 @@
+include sfml.mak
+
 CPPFLAGS=-std=c++11 -Wall
-LDLIBS=-L/home/h00s/src/sfml/latest/lib/
-LDINCLUDE=-I/home/h00s/src/sfml/latest/include/
+LDLIBS=-L$(SFMLDIR)/lib/
+LDINCLUDE=-I$(SFMLDIR)/include/
 LDSFMLFLAGS=-lsfml-system -lsfml-window -lsfml-graphics
 EXECUTABLE=tetrispp
 

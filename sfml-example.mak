@@ -1,0 +1,1 @@
+SFMLDIR=/home/user/src/sfml
